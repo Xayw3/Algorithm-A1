@@ -82,6 +82,7 @@ while True:
             print("Exit")
             pygame.quit()
             sys.exit()
+        # бинд кнопок              
         elif event.type == pygame.KEYDOWN:
             if event.key == pygame.K_UP and d_col !=0:
                 d_row = -1
